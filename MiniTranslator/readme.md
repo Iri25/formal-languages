@@ -2,8 +2,8 @@
 1. A translator for a minimal language using the LEX/FLEX & YACC/BISON program generators. The translator will receive a source file and generate the associated ASM 80x86 code.
 
 ### The mini-programming language:
-```
 Simplified specification of the C++ miniimage according to the language standard.
+```
 int main()
 {
       list_instructions AND list_statements
