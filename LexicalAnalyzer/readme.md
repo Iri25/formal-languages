@@ -56,14 +56,15 @@ Specification: calculates the sum of n numbers entered from the keyboard
 ```
 
 ### Errors according to the mini programming language
-
-1. A program that contains two errors that are at the same time errors in the original language (for which a subset is defined).
-2. A program that contains two errors, but which are not errors in the original language. It is required that it be compiled and executed in the original language chosen.
+```
+A program that contains two errors that are at the same time errors in the original language (for which a subset is defined).
+A program that contains two errors, but which are not errors in the original language. It is required that it be compiled and executed in the original language chosen.
+```
 
 ### Implementation of the lexical analyzer
-
+```
 Restrictions: aab
-• Identifiers with a maximum length of 8 characters
-• Unique symbol table for identifiers and constants
-• Organization of symbol tables as a binary tree of
-search
+- Identifiers with a maximum length of 8 characters
+- Unique symbol table for identifiers and constants
+- Organization of symbol tables as a binary tree of search
+```
