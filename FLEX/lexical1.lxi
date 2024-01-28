@@ -1,0 +1,88 @@
+%option noyywrap
+
+digit   [0-9]
+nndigit [1-9]
+letter  [a-zA-Z_]
+number  {digit}|{nndigit}{digit}*
+letterAndDigit  {digit}|{letter}
+
+%%
+
+public                                          {printf("3 ");}
+
+class                                           {printf("4 ");}
+
+Main                                            {printf("5 ");}
+"}"                                             {printf("7 ");}
+
+static                                          {printf("8 ");}
+
+void                                            {printf("9 ");}
+
+main                                            {printf("10 ");}
+
+"("                                             {printf("11 ");}
+
+")"                                             {printf("12 ");}
+
+String                                          {printf("13 ");}
+
+"[]"                                            {printf("14 ");}
+
+args                                            {printf("15 ");}
+
+int                                             {printf("16 ");}
+
+double                                          {printf("17 ");}
+
+"="                                             {printf("18 ");}
+
+";"                                             {printf("19 ");}
+
+"!="                                            {printf("20 ");}
+
+">"                                             {printf("21 ");}
+
+"-"                                             {printf("22 ");}
+
+"+"                                             {printf("23 ");}
+
+"*"                                             {printf("24 ");}
+
+if                                              {printf("25 ");}
+
+else                                            {printf("26 ");}
+
+while                                           {printf("27 ");}
+
+System                                          {printf("28 ");}
+
+"."                                             {printf("29 ");}
+
+out                                             {printf("30 ");}
+
+println                                         {printf("31 ");}
+
+Scanner                                         {printf("32 ");}
+
+new                                             {printf("33 ");}
+
+in                                              {printf("34 ");}
+
+{letter}({letter}|{digit})*                     {printf("1 ");}
+
+([+-]?{number}([.]{number})?)|(["][^"]*["])     {printf("2 ");}
+
+(^{letter})*({letter}|{digit}|[@])*             {printf("ID_ERROR ");}
+
+[ \n\t];
+
+%%
+main(){
+        printf("FIP: \n");
+        yylex();
+}
+
+
+
+

@@ -1,0 +1,7 @@
+TS{symbol='3', codTS=23}
+TS{symbol='8', codTS=19}
+TS{symbol='9', codTS=21}
+TS{symbol='hhhhhhhhhhhhhhhhhhhhh', codTS=24}
+TS{symbol='x', codTS=18}
+TS{symbol='y', codTS=20}
+TS{symbol='z', codTS=22}

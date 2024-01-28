@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+
+        int s = 0;
+        Scanner i = new Scanner(System.in);
+        int n = in.nextInt();
+
+        while (n != 0){
+            int x = in.nextInt();
+            s = s + x;
+            n = n - 1;
+        }
+        System.out.println(s);
+    }
+}

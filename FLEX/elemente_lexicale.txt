@@ -1,0 +1,21 @@
+<instr_myrepeta> repeta <instr> panacand <instr> sfrepeta
+
+
+Elemente lexicale:
+
+ID: <letter>|<leter><digit>
+<letter> -> a|b|..|z|A|B|..|Z
+<digit> -> 0|1|2|..9
+(ID: x, y, z, a, b, c1 ..)
+
+CONST: <number>
+<number> -> <digit> | <nndigit><digit>
+<digit> -> 0|1|2|..9
+<nndigit> -> 1|2|..9
+(CONST: 2, 7, 11, 0, 10, ..)
+
+cuvinte cheie: repeta, panacand, sfrepeta, daca, altfel, sfdaca, intreg, real, ..
+
+operatori: +, -, *, /, %,  =, ==, ..
+
+delimitatori/ separatori: ";", ",", ..

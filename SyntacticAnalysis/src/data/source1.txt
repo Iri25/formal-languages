@@ -1,0 +1,9 @@
+public class Main {
+
+    public static void main ( String [ ] args ) {
+
+        double PI = 3 ;
+        double R = 2 ;
+    }
+}
+

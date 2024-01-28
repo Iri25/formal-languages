@@ -1,0 +1,14 @@
+flex analizor.l
+bison -dv analizor.y
+gcc -o exe lex.yy.c analizor.tab.c
+./exe<name_file
+
+
+
+
+nasm -f win32 output.asm -o output.obj
+ld output.obj output.exe sau ld -s -o output output.o
+./output
+
+
+
