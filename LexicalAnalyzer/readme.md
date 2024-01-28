@@ -57,8 +57,8 @@ Specification: calculates the sum of n numbers entered from the keyboard
 
 ### Errors according to the mini programming language
 ```
-A program that contains two errors that are at the same time errors in the original language (for which a subset is defined).
-A program that contains two errors, but which are not errors in the original language. It is required that it be compiled and executed in the original language chosen.
+- A program that contains two errors that are at the same time errors in the original language (for which a subset is defined).
+- A program that contains two errors, but which are not errors in the original language. It is required that it be compiled and executed in the original language chosen.
 ```
 
 ### Implementation of the lexical analyzer
