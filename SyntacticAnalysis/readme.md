@@ -6,7 +6,7 @@ One of the following syntactic analysis methods will be used:
 - slr
 - lr(1)
 
-1. yntactic analysis of an input sequence:
+1. Syntactic analysis of an input sequence:
 ```
 Input: a context-independent grammar in the file; an input sequence
 Output: syntactic analysis corresponding to the input sequence or an error message, if the sequence is not accepted
