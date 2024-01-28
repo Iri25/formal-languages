@@ -2,9 +2,7 @@ Specifying the Java miniimage according to the language standard:
 
 ````
 <program> “public” “class” NAME { “public” “static” “void” “main”( “String”[] “args”) {
-
 <decl><list_instr>}}
-
 <NAME> → <Main> | <class_name>
 
 <Class_Name> → A | B| … | Z| to | b| … | z
@@ -52,4 +50,4 @@ Specifying the Java miniimage according to the language standard:
 "." "nextInt" () ";"
 
 <display> → “System” “.” "out" "." "println" (<text> + <variable> | <expr>) ";"
-``
+
